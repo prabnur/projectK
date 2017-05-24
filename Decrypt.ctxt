@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=S
+comment0.target=java.lang.String\ _n(java.lang.String)
+comment1.params=S
+comment1.target=java.lang.String\ _N(java.lang.String)
+comment2.params=S\ ref
+comment2.target=java.lang.String\ _x(java.lang.String,\ int)
+comment3.params=S\ ref
+comment3.target=java.lang.String\ _alpha(java.lang.String,\ int)
+comment4.params=S\ ref
+comment4.target=java.lang.String\ _alpha2(java.lang.String,\ int)
+comment5.params=
+comment5.target=void\ read()
+comment6.params=N\ code\ id
+comment6.target=java.lang.String\ decrypt(java.lang.String,\ java.lang.String,\ int)
+numComments=7

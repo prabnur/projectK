@@ -1,0 +1,46 @@
+/*void cryptFile(int x,String code)throws IOException
+    {
+    PrintWriter ofile=new PrintWriter(new FileWriter("Encrypted File.txt"));
+    BufferedReader ifile = new BufferedReader(new FileReader("Decrypted.txt"));
+    String N="";
+    int n,i,j;
+    char c;
+    while(true)
+    {
+    N=ifile.readLine();
+    if(N==null) break;
+    for(i=1;i<=x;i++)
+    {
+    for(j=0;j<code.length();j++)
+    {
+    c=code.charAt(j);
+    if(c>='0' && c<='9')
+    {
+    n=c-48;
+    if(n%2==0) N=_n(N);
+    else N=_N(N);
+    N=_x(N,n);
+    }
+    else if(c>='a' && c<='z')
+    {
+    n=c-96;
+    if(n%2==0) N=_n(N);
+    else N=_N(N);
+    N=_alpha(N,n);
+    }
+    else if(c>='A' && c<='Z')
+    {
+    n=c-64;
+    if(n%2==0) N=_n(N);
+    else N=_N(N);
+    N=_alpha2(N,n);
+    }
+    }
+    }
+    ofile.println(N);
+    }
+    System.out.println("\n\n? Encrypted!");
+    ofile.close();
+    ifile.close();
+    }
+     */
